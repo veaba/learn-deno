@@ -328,6 +328,14 @@ import { test } from "https://deno.land/x/testing/mod.ts";
 - \.deno\deps\* 存放远程模块 在本地和 goland 类似
 - \.deno\gen\* 存放本地 hash 的 js 和 SourceMap
 
+## deno 的全局变量
+
+全局变量是什么，应该怎么从deno xx.ts 获取
+
+- this    无法获取
+- global  无法获取
+- process 无法获取
+
 ## Windows
 
 ```js
